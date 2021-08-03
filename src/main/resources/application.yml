@@ -1,0 +1,25 @@
+server:
+  port: 8080
+
+spring:
+  main:
+    banner-mode: "off"
+    datasource:
+      url: "jdbc:hsql:mem:register"
+
+logging:
+  level:
+    org:
+      springframework: INFO
+
+vector:
+  original: "5,3,2,4,7,1,0,6"
+
+marcas: "hyundai,toyota,ford,chevrolet"
+
+electors:
+  total: 1000
+  votes:
+    valid: 800
+    white: 150
+    nul: 50
